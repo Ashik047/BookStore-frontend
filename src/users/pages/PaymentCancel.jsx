@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const PaymentError = () => {
+const PaymentCancel = () => {
     return (
         <main className='container'>
             <div className='md:grid grid-cols-2 px-20 justify-center items-center flex-col h-screen'>
@@ -20,4 +20,4 @@ const PaymentError = () => {
     )
 }
 
-export default PaymentError
+export default PaymentCancel
