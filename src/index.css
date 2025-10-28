@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Playfair Display", serif;
+}
+
+.home__container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/bghome.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#login__page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/login.jpg");
+  background-position: center;
+  background-size: cover;
+}
